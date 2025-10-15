@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pista Store | Products</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            pistaLight: '#E9F5E9',
+            pista: '#B6D7A8',
+            pistaDark: '#6B8E74',
+            darkText: '#1F2937'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="css/aos.css" />
+</head>
+
+<body class="bg-pistaLight text-darkText font-sans">
+  <!-- 🌿 Navbar -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-semibold text-pistaDark">Pista<span class="text-pista">Store</span></h1>
+      <ul class="hidden md:flex space-x-8 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-pistaDark transition">Home</a></li>
+        <li><a href="#" class="hover:text-pistaDark transition">Products</a></li>
+        <li><a href="#" class="hover:text-pistaDark transition">About</a></li>
+        <li><a href="#" class="hover:text-pistaDark transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 🛍️ Product Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-center text-3xl font-semibold text-pistaDark mb-12" data-aos="fade-down">Our Products</h2>
+
+    <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Card -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="100">
+        <img src="./assets/images/slider/slide-1.jpg" alt="Smart Watch" class="w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-pistaDark mb-2">Smart Watch</h3>
+          <p class="text-gray-600 mb-4">Track your health and stay connected effortlessly.</p>
+          <div class="flex justify-between items-center">
+            <span class="text-lg font-semibold text-pistaDark">$49.99</span>
+            <a href="product-details.html" class="bg-pistaDark text-white px-4 py-2 rounded-lg hover:bg-pista transition">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="200">
+        <img src="./assets/images/slider/slide-1.jpg" alt="Headphones" class="w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-pistaDark mb-2">Wireless Headphones</h3>
+          <p class="text-gray-600 mb-4">Crystal-clear sound with deep bass and comfort.</p>
+          <div class="flex justify-between items-center">
+            <span class="text-lg font-semibold text-pistaDark">$89.99</span>
+            <a href="product-details.html" class="bg-pistaDark text-white px-4 py-2 rounded-lg hover:bg-pista transition">View</a>
+          </div>
+        </div>
