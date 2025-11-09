@@ -6,7 +6,7 @@ Author:         blue_design
 URL:            http://themeforest.net/user/blue_design
 -------------------------------------------------------------------*/
 /*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
+>>> TABLE OF CONTENTS: #B9BABE #131E4A
 ----------------------------------------------------------------
 #0.1	Theme Reset Style
 #0.2	Global Elements
@@ -3793,10 +3793,10 @@ img {
   margin-bottom: 10px;
 }
 
-.quote-section .right-col, .quote-section-s2 .right-col {
+/* .quote-section .right-col, .quote-section-s2 .right-col {
   background: url("../images/quote-bg.jpg") center center/cover no-repeat local;
   position: relative;
-}
+} */
 
 @media (max-width: 991px) {
   .quote-section .right-col, .quote-section-s2 .right-col {
@@ -4434,9 +4434,9 @@ img {
 /*--------------------------------------------------------------
 #2.4	quote-section-s2
 --------------------------------------------------------------*/
-.quote-section-s2 .right-col {
+/* .quote-section-s2 .right-col {
   background: url("../images/quote-bg-s2.jpg") center center/cover no-repeat local;
-}
+} */
 
 /*--------------------------------------------------------------
 	#home style 3
@@ -7285,3 +7285,11 @@ img {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* My CSS */
+.panel-heading a:hover {
+  color: #1f402b !important;
+}
+.panel-body {
+  line-height: 1.7;
+}
